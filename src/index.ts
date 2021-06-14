@@ -199,9 +199,6 @@ function install(editor: NodeEditor, params: Cfg) {
     if (!pressing) {
       return
     }
-    if (editor.selected.list.length > 0) {
-      return
-    }
 
     e.preventDefault()
     e.stopPropagation()
